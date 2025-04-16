@@ -116,7 +116,7 @@
         },
         {
           "id": 4,
-          "unreadMessages": 1,
+          "unreadMessages": 2,
           "participants": [
             4,
             3
@@ -239,6 +239,14 @@
           "name": "Anderson Pereira Da Silva",
           "userId": 4,
           "date": "08:13"
+        },
+        {
+          "userId": 4,
+          "text": "oi",
+          "name": "Anderson Pereira Da Silva",
+          "date": "08:58",
+          "id": 4,
+          "otherUserId": 3
         }
       ]
     }
