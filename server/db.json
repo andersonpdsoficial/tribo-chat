@@ -51,6 +51,15 @@
           "type": "chat",
           "unreadMessages": 0,
           "id": 2
+        },
+        {
+          "id": 5,
+          "unreadMessages": 1,
+          "participants": [
+            4,
+            1
+          ],
+          "name": "Anderson Pereira Da Silva"
         }
       ],
       "image": "https://avatars.githubusercontent.com/u/94445061"
@@ -140,7 +149,8 @@
             1
           ],
           "type": "chat",
-          "unreadMessages": 0
+          "unreadMessages": 0,
+          "id": 5
         },
         {
           "name": "Marcia",
@@ -160,10 +170,84 @@
           ],
           "type": "chat",
           "unreadMessages": 0,
-          "id": 4
+          "id": 4,
+          "messages": [
+            {
+              "text": "oi",
+              "name": "Anderson Pereira Da Silva",
+              "userId": 4,
+              "date": "08:13"
+            },
+            {
+              "userId": 4,
+              "text": "oi",
+              "name": "Anderson Pereira Da Silva",
+              "date": "08:58",
+              "id": 4,
+              "otherUserId": 3
+            }
+          ]
+        },
+        {
+          "name": "joao",
+          "participants": [
+            5,
+            4
+          ],
+          "type": "chat",
+          "unreadMessages": 1,
+          "id": 6
         }
       ],
       "id": 4
+    },
+    {
+      "name": "joao",
+      "email": "anderson@email.com",
+      "password": "123456",
+      "imagem": "https://avatars.githubusercontent.com/u/52740485",
+      "chats": [
+        {
+          "name": "Luiz",
+          "image": "https://avatars.githubusercontent.com/u/94445061",
+          "participants": [
+            5,
+            1
+          ],
+          "type": "chat",
+          "unreadMessages": 0
+        },
+        {
+          "name": "Marcia",
+          "image": "https://avatars.githubusercontent.com/u/38763801",
+          "participants": [
+            5,
+            2
+          ],
+          "type": "chat",
+          "unreadMessages": 0
+        },
+        {
+          "name": "joao",
+          "participants": [
+            5,
+            3
+          ],
+          "type": "chat",
+          "unreadMessages": 0
+        },
+        {
+          "name": "Anderson Pereira Da Silva",
+          "participants": [
+            5,
+            4
+          ],
+          "type": "chat",
+          "unreadMessages": 0,
+          "id": 6
+        }
+      ],
+      "id": 5
     }
   ],
   "chats": [
@@ -247,6 +331,38 @@
           "date": "08:58",
           "id": 4,
           "otherUserId": 3
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "chat",
+      "participants": [
+        4,
+        1
+      ],
+      "messages": [
+        {
+          "text": "1",
+          "name": "Anderson Pereira Da Silva",
+          "userId": 4,
+          "date": "09:34"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "chat",
+      "participants": [
+        5,
+        4
+      ],
+      "messages": [
+        {
+          "text": "9",
+          "name": "joao",
+          "userId": 5,
+          "date": "09:35"
         }
       ]
     }
