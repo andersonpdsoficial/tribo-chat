@@ -19,6 +19,11 @@ io.emit('Nova mensagem', socket.id )
     });
   })
 
+  socket.on('join-rooms', (chatId) => {
+    chatId.forEach(chatId => socket.join(`chat${chatId}`)
+    );
+  })
+
   socket.on('add-user-id', (id) => {
     userController.logonUser(id, socket, () => {
       io.emit('user-logged', id);
