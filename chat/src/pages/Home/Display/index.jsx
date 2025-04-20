@@ -1,10 +1,10 @@
 import './styles.scss';
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { IoSend } from 'react-icons/io5';
 
 import displayEmpty from 'assets/display-empty.png';
-import useConversa from 'hooks/chat';
+import useChat from 'hooks/chat';
 import useUser from 'hooks/user';
 import Avatar from 'components/Avatar';
 import fetch from 'config/fetchInstance';
@@ -12,11 +12,8 @@ import { isEnter } from 'utils/checkKeys';
 
 export default function Display() {
   const [newMessageText, setNewMessageText] = useState('');
-  const { data } = useConversa();
-  const [messages, setMessages] = useState(data?.messages);
+  const { data } = useChat();
   const { id, name } = useUser();
-
-  useEffect(() => setMessages(data?.messages), [data?.messages]);
 
   function verDetalhes() {
     alert('Esta função ainda não existe, sinta-se à vontade para criar!');
@@ -36,7 +33,7 @@ export default function Display() {
     newMessage.otherUserId = data.participants.find(
       (participantId) => id !== participantId,
     );
-    setMessages((oldMessages = []) => [...oldMessages, newMessage]);
+
     fetch.post(`/api/chats/${data.id}/messages`, newMessage);
     setNewMessageText('');
   }
@@ -69,7 +66,7 @@ export default function Display() {
         </div>
       </div>
       <div className='display-messages'>
-        {messages?.map((message, index) => {
+        {data?.messages?.map((message, index) => {
           const actualMessageOwner =
             message.userId === id ? 'owner' : 'foreign';
 
