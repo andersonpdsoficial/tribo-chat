@@ -15,3 +15,12 @@ export const io = new Server(server, {
     origin: ['http://localhost:5173', 'http://localhost:5174']
   }
 });
+
+io.on('connection', (socket) => {
+  console.log('Novo usuário conectado', socket.id);
+});
+
+io.on('disconnect', (socket) => {
+  console.log('Usuário desconectado', socket.id);
+});
+      

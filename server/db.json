@@ -1,0 +1,370 @@
+{
+  "users": [
+    {
+      "name": "Luiz",
+      "email": "luiz@email.com",
+      "isLogged": true,
+      "password": "123",
+      "id": 1,
+      "chats": [
+        {
+          "name": "Marcia",
+          "image": "https://avatars.githubusercontent.com/u/38763801",
+          "participants": [
+            1,
+            2
+          ],
+          "type": "chat",
+          "unreadMessages": 0,
+          "id": 1,
+          "messages": [
+            {
+              "text": "Olá Luiz, tudo bem? Gostaria de saber sobre o código da aula de hoje, pode me ajudar?",
+              "date": "14:00",
+              "name": "Márcia",
+              "userId": 2
+            },
+            {
+              "userId": 1,
+              "text": "teste",
+              "name": "Luiz",
+              "date": "18:16",
+              "id": 1,
+              "otherUserId": 2
+            },
+            {
+              "userId": 1,
+              "text": "",
+              "name": "Luiz",
+              "date": "18:16",
+              "id": 1,
+              "otherUserId": 2
+            }
+          ]
+        },
+        {
+          "name": "joao",
+          "participants": [
+            1,
+            3
+          ],
+          "type": "chat",
+          "unreadMessages": 0,
+          "id": 2
+        },
+        {
+          "id": 5,
+          "unreadMessages": 1,
+          "participants": [
+            4,
+            1
+          ],
+          "name": "Anderson Pereira Da Silva"
+        }
+      ],
+      "image": "https://avatars.githubusercontent.com/u/94445061"
+    },
+    {
+      "name": "Marcia",
+      "email": "marcia@email.com",
+      "isLogged": true,
+      "password": "123",
+      "id": 2,
+      "image": "https://avatars.githubusercontent.com/u/38763801",
+      "chats": [
+        {
+          "name": "Luiz",
+          "image": "https://avatars.githubusercontent.com/u/94445061",
+          "participants": [
+            1,
+            2
+          ],
+          "type": "chat",
+          "unreadMessages": 2,
+          "id": 1
+        },
+        {
+          "name": "joao",
+          "participants": [
+            3,
+            2
+          ],
+          "unreadMessages": 0,
+          "type": "chat",
+          "id": 3
+        }
+      ]
+    },
+    {
+      "name": "joao",
+      "email": "joao@email.com",
+      "password": "123",
+      "imagem": "https://avatars.githubusercontent.com/u/20377093",
+      "chats": [
+        {
+          "name": "Luiz",
+          "image": "https://avatars.githubusercontent.com/u/94445061",
+          "participants": [
+            1,
+            3
+          ],
+          "type": "chat",
+          "unreadMessages": 1,
+          "id": 2
+        },
+        {
+          "name": "Marcia",
+          "image": "https://avatars.githubusercontent.com/u/38763801",
+          "participants": [
+            3,
+            2
+          ],
+          "type": "chat",
+          "unreadMessages": 0,
+          "id": 3
+        },
+        {
+          "id": 4,
+          "unreadMessages": 2,
+          "participants": [
+            4,
+            3
+          ],
+          "name": "Anderson Pereira Da Silva"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "Anderson Pereira Da Silva",
+      "email": "andersonpds17042000@gmail.com",
+      "password": "123456",
+      "imagem": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/81.jpg",
+      "chats": [
+        {
+          "name": "Luiz",
+          "image": "https://avatars.githubusercontent.com/u/94445061",
+          "participants": [
+            4,
+            1
+          ],
+          "type": "chat",
+          "unreadMessages": 0,
+          "id": 5
+        },
+        {
+          "name": "Marcia",
+          "image": "https://avatars.githubusercontent.com/u/38763801",
+          "participants": [
+            4,
+            2
+          ],
+          "type": "chat",
+          "unreadMessages": 0
+        },
+        {
+          "name": "joao",
+          "participants": [
+            4,
+            3
+          ],
+          "type": "chat",
+          "unreadMessages": 0,
+          "id": 4,
+          "messages": [
+            {
+              "text": "oi",
+              "name": "Anderson Pereira Da Silva",
+              "userId": 4,
+              "date": "08:13"
+            },
+            {
+              "userId": 4,
+              "text": "oi",
+              "name": "Anderson Pereira Da Silva",
+              "date": "08:58",
+              "id": 4,
+              "otherUserId": 3
+            }
+          ]
+        },
+        {
+          "name": "joao",
+          "participants": [
+            5,
+            4
+          ],
+          "type": "chat",
+          "unreadMessages": 1,
+          "id": 6
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "joao",
+      "email": "anderson@email.com",
+      "password": "123456",
+      "imagem": "https://avatars.githubusercontent.com/u/52740485",
+      "chats": [
+        {
+          "name": "Luiz",
+          "image": "https://avatars.githubusercontent.com/u/94445061",
+          "participants": [
+            5,
+            1
+          ],
+          "type": "chat",
+          "unreadMessages": 0
+        },
+        {
+          "name": "Marcia",
+          "image": "https://avatars.githubusercontent.com/u/38763801",
+          "participants": [
+            5,
+            2
+          ],
+          "type": "chat",
+          "unreadMessages": 0
+        },
+        {
+          "name": "joao",
+          "participants": [
+            5,
+            3
+          ],
+          "type": "chat",
+          "unreadMessages": 0
+        },
+        {
+          "name": "Anderson Pereira Da Silva",
+          "participants": [
+            5,
+            4
+          ],
+          "type": "chat",
+          "unreadMessages": 0,
+          "id": 6
+        }
+      ],
+      "id": 5
+    }
+  ],
+  "chats": [
+    {
+      "id": 1,
+      "type": "chat",
+      "participants": [
+        1,
+        2
+      ],
+      "messages": [
+        {
+          "text": "Olá Luiz, tudo bem? Gostaria de saber sobre o código da aula de hoje, pode me ajudar?",
+          "date": "14:00",
+          "name": "Márcia",
+          "userId": 2
+        },
+        {
+          "userId": 1,
+          "text": "teste",
+          "name": "Luiz",
+          "date": "18:16",
+          "id": 1,
+          "otherUserId": 2
+        },
+        {
+          "userId": 1,
+          "text": "",
+          "name": "Luiz",
+          "date": "18:16",
+          "id": 1,
+          "otherUserId": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "chat",
+      "participants": [
+        1,
+        3
+      ],
+      "messages": [
+        {
+          "userId": 1,
+          "text": "teste",
+          "name": "Luiz",
+          "date": "14:18",
+          "id": 2,
+          "otherUserId": 3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "chat",
+      "participants": [
+        3,
+        2
+      ],
+      "messages": []
+    },
+    {
+      "id": 4,
+      "type": "chat",
+      "participants": [
+        4,
+        3
+      ],
+      "messages": [
+        {
+          "text": "oi",
+          "name": "Anderson Pereira Da Silva",
+          "userId": 4,
+          "date": "08:13"
+        },
+        {
+          "userId": 4,
+          "text": "oi",
+          "name": "Anderson Pereira Da Silva",
+          "date": "08:58",
+          "id": 4,
+          "otherUserId": 3
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "chat",
+      "participants": [
+        4,
+        1
+      ],
+      "messages": [
+        {
+          "text": "1",
+          "name": "Anderson Pereira Da Silva",
+          "userId": 4,
+          "date": "09:34"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "chat",
+      "participants": [
+        5,
+        4
+      ],
+      "messages": [
+        {
+          "text": "9",
+          "name": "joao",
+          "userId": 5,
+          "date": "09:35"
+        }
+      ]
+    }
+  ]
+}
